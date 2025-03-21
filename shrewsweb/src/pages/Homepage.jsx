@@ -6,7 +6,7 @@ import HeroSection from "../components/HeroSection.jsx";
 const Homepage = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <HeroSection></HeroSection>
         </div>
     )
