@@ -5,8 +5,7 @@ import HeroSection from "../components/HeroSection.jsx";
 
 const Homepage = () => {
     return (
-        <div>
-            {/* <Navbar></Navbar> */}
+        <div id='homepage'>
             <HeroSection></HeroSection>
         </div>
     )
