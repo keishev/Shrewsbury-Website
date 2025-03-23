@@ -4,7 +4,7 @@ import RoomType from "../components/RoomType";
 
 const Rooms = () => {
     return (
-        <div id='rooms' className="pt-16 h-screen">
+        <div id='rooms' className="pt-5 h-screen">
             <h1 className="font-poppins font-bold text-4xl inline-block m-4 text-main-red">room types.</h1>
 
             <div className="flex mb-4 justify-center">

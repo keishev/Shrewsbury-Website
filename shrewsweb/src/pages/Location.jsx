@@ -4,7 +4,7 @@ import { MdLocationCity } from "react-icons/md"
 
 const Location = () => {
     return (
-        <div id='location' className="pt-16 h-screen">
+        <div id='location' className="pt-5 h-screen">
             <h1 className="font-poppins text-main-red font-bold text-4xl m-4">location.</h1>
 
             <div className="mt-10 mx-0 font-quicksand font-bold bg-main-red text-white p-10 flex items-center gap-10 w-full">
