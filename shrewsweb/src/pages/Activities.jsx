@@ -6,12 +6,12 @@ import "./styles.css"
 
 
 const categories = [
-    { name: "BBQ", image: "/assets/activities/bbq1.jpeg" },
-    { name: "HOTPOT", image: "/assets/activities/bbq2.jpeg" },
-    { name: "SPORTS", image: "/assets/activities/lol.jpeg" },
-    { name: "MALA", image: "/assets/activities/bbq3.jpeg" },
-    { name: "JB TRIP", image: "/assets/activities/etc2.jpeg" },
-    { name: "ETC", image: "/assets/activities/etc.jpeg" }
+    { name: "BBQ", image: "/assets/activities/lol.jpeg" },
+    { name: "HOTPOT", image: "/assets/activities/lol2.jpeg" },
+    { name: "SPORTS", image: "/assets/activities/lol3.jpg" },
+    { name: "MALA", image: "/assets/activities/lol4.jpg" },
+    { name: "JB TRIP", image: "/assets/activities/lol5.jpg" },
+    { name: "ETC", image: "/assets/activities/lol6.jpg" }
 ];
 
 const CategoryItem = ({ category }) => {
