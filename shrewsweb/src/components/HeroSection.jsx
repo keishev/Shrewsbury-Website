@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center px-0 py-5 bg-main-pink text-main-red h-screen p-0">
+        <div className="flex flex-col md:flex-row items-center justify-center px-0 py-5 bg-main-pink text-main-red h-[90vh] p-0">
             <div className="w-full md:w-1/5 flex justify-center md:mr-10"> 
                 <img src="/assets/hero.png" alt="Shrewsbury Logo" className="max-w-xs md:max-w-md"/>
             </div>

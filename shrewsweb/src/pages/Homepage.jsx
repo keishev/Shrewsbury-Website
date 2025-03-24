@@ -1,11 +1,10 @@
 import React from "react";
 
-import Navbar from '../components/Navbar.jsx'
 import HeroSection from "../components/HeroSection.jsx";
 
 const Homepage = () => {
     return (
-        <div id='homepage'>
+        <div id='homepage' className="h-[90vh]">
             <HeroSection></HeroSection>
         </div>
     )

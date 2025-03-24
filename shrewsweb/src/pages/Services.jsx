@@ -4,7 +4,7 @@ import Service from "../components/Service";
 
 const Services = () => {
     return (
-        <div id='services' className="bg-main-red pt-5 pb-5 flex items-center h-screen">
+        <div id='services' className="bg-main-red pt-5 pb-5 flex items-center h-[90vh]">
             <div className="justify-start pl-16 mx-10 mr-9 font-poppins font-bold text-4xl text-white">
                 <h1>services</h1>
                 <h1>included.</h1>
