@@ -6,12 +6,12 @@ import "./styles.css"
 
 
 const categories = [
-    { name: "BBQ", image: "/assets/hero.png" },
-    { name: "HOTPOT", image: "/images/hotpot.png" },
-    { name: "SPORTS", image: "/images/sports.png" },
-    { name: "MALA", image: "/images/mala.png" },
-    { name: "JB TRIP", image: "/images/jbtrip.png" },
-    { name: "ETC", image: "/images/etc.png" }
+    { name: "BBQ", image: "/assets/activities/bbq1.jpeg" },
+    { name: "HOTPOT", image: "/assets/activities/bbq2.jpeg" },
+    { name: "SPORTS", image: "/assets/activities/lol.jpeg" },
+    { name: "MALA", image: "/assets/activities/bbq3.jpeg" },
+    { name: "JB TRIP", image: "/assets/activities/etc2.jpeg" },
+    { name: "ETC", image: "/assets/activities/etc.jpeg" }
 ];
 
 const CategoryItem = ({ category }) => {
@@ -26,13 +26,6 @@ const CategoryItem = ({ category }) => {
     return (
         <div
             ref={drag}
-            // className={`flex items-center bg-main-red text-white px-4 py-2 rounded-full cursor-pointer font-bold h-[30px] ${isDragging ? "opacity-50" : "opacity-100"}`}
-            // initial={{ scale: 1, boxShadow: "none" }}
-            // animate={{
-            //     scale: isDragging ? 1.2 : 1,
-            //     boxShadow: isDragging ? "0px 15px 20px rgba (0, 0, 0, 0.3)" : "none"
-            // }}
-            // transition={{ type: "spring", stiffness: 200 }}
         >
             <motion.div
                 className={`flex items-center bg-main-red text-white px-4 py-2 rounded-full cursor-pointer font-bold h-[30px] ${isDragging ? "opacity-50" : "opacity-100"}`}
@@ -66,11 +59,11 @@ const DropArea = ({ selectedCategory, setSelectedCategory }) => {
                 transition={{ type: "spring", stiffness: 200 }}
             >
                 {selectedCategory ? (
-                    <div>
+                    <div className="flex items-center justify-center">
                         <motion.img
                             src={selectedCategory.image}
                             alt={selectedCategory.name}
-                            className="w-32 h-32"
+                            className="w-[70%] h-auto m-3"
                             initial={{ opacity: 0, scale:0.5 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.5 }}
